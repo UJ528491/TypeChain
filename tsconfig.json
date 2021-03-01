@@ -4,8 +4,9 @@
     "module" : "CommonJS",
     "target": "ES2015", //어떤 버전으로 컴파일 될지
     "sourceMap": true,
+    "outDir": "dist"
   },
   //어떤 파일들이 컴파일 과정에 포함되는지 typescript에게 알려줌
-  "include": ["index.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
